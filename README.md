@@ -1,4 +1,4 @@
-Symfony2 App: sfKwejk
+Symfony2 App - sfKwejk
 =====================
 
-Test app
+Test app...
