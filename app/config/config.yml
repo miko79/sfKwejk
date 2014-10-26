@@ -73,7 +73,7 @@ swiftmailer:
 
 doctrine_migrations:
     dir_name: %kernel.root_dir%/migrations
-    namespace: Application\Migration
+    namespace: Migration
     table_name: migration_versions
     name: Application Migrations
 
