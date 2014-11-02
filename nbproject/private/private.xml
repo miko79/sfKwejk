@@ -3,11 +3,26 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/MemsBundle/Entity/Comment.php</file>
-            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/MemsBundle/Entity/Rating.php</file>
-            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/UserBundle/Entity/User.php</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/MemsBundle/Resources/views/Mems/show.html.twig</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/LayoutBundle/Resources/views/layout.html.twig</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/app/config/security.yml</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/UserBundle/DataFixtures/ORM/LoadUserData.php</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/MemsBundle/Resources/views/Mems/list.html.twig</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/CoreBundle/KwejkCoreBundle.php</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/MemsBundle/DataFixtures/ORM/LoadMemsData.php</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/LayoutBundle/Menu/Builder.php</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/LayoutBundle/Resources/Public/js/scripts.js</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/MemsBundle/Controller/MemsController.php</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/AdminBundle/Resources/config/Mem-generator.yml</file>
             <file>file:/Applications/XAMPP/htdocs/sfKwejk/composer.json</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/CoreBundle/DependencyInjection/KwejkCoreExtension.php</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/app/config/routing.yml</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/UserBundle/Entity/User.php</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/LayoutBundle/Resources/Public/css/style.css</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/app/AppKernel.php</file>
             <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/MemsBundle/Entity/Mem.php</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/app/config/config.yml</file>
+            <file>file:/Applications/XAMPP/htdocs/sfKwejk/src/Kwejk/MemsBundle/Controller/CommentController.php</file>
         </group>
     </open-files>
 </project-private>

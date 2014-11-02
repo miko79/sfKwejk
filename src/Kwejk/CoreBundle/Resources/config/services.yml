@@ -1,0 +1,7 @@
+parameters:
+#    kwejk_core.example.class: Kwejk\CoreBundle\Example
+
+services:
+#    kwejk_core.example:
+#        class: %kwejk_core.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

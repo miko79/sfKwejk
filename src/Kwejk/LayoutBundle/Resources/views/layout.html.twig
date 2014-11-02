@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Kwejk{% endblock %}</title>
+        {% block stylesheets %}
+            {% stylesheets
+                'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'
+                '@KwejkLayoutBundle/Resources/public/css/style.css'
+            %}
+            <link href="{{ asset_url }}" type="text/css" rel="stylesheet">
+            {% endstylesheets %}
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        <div class="container">
+            
+            <nav role="navigation" class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-collapse collapse" id="navbar">
+                        {{ knp_menu_render('KwejkLayoutBundle:Builder:mainMenu') }}
+                        {% if app.user %}
+                            {{ knp_menu_render('KwejkLayoutBundle:Builder:userMenuAuthenticated') }}
+                        {% else %}
+                            {{ knp_menu_render('KwejkLayoutBundle:Builder:userMenuNotAuthenticated') }}
+                        {% endif %}
+                    </div>
+                </div>
+            </nav>
+                    
+            {% for flashMessage in app.session.flashbag.get('notice') %}
+                <div class="alert alert-success" role="alert">
+                    {{ flashMessage }}
+                </div>
+            {% endfor %}
+        
+            {% block body %}{% endblock %}
+            
+            <div class="footer">
+                <div class="container">
+                    {{ knp_menu_render('KwejkLayoutBundle:Builder:mainMenu') }}
+                </div>
+              
+            </div>
+        </div>
+        
+        {% block javascripts %}
+            {% javascripts
+	        	'https://code.jquery.com/jquery-1.11.1.min.js'
+	        	'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'
+	        	'@KwejkLayoutBundle/Resources/public/js/scripts.js'
+	        %}
+	        	<script src="{{ asset_url }}"></script>
+	        {% endjavascripts %}
+        {% endblock %}
+    </body>
+</html>

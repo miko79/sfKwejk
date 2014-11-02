@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0e50fc557ede7274532cb5e9c774026b",
+    "hash": "be1e0ef9f0a0862df8201a0d1c6f5a83",
     "packages": [
         {
             "name": "afarkas/html5shiv",
@@ -162,20 +162,20 @@
         },
         {
             "name": "components/bootstrap",
-            "version": "3.2.0",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/bootstrap.git",
-                "reference": "09948b04f780173eb0b9ec522d53554f3f408055"
+                "reference": "220ece7325593e23de39d94816dccbc0d4ec12f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/bootstrap/zipball/09948b04f780173eb0b9ec522d53554f3f408055",
-                "reference": "09948b04f780173eb0b9ec522d53554f3f408055",
+                "url": "https://api.github.com/repos/components/bootstrap/zipball/220ece7325593e23de39d94816dccbc0d4ec12f8",
+                "reference": "220ece7325593e23de39d94816dccbc0d4ec12f8",
                 "shasum": ""
             },
             "require": {
-                "components/jquery": ">=1.9"
+                "components/jquery": ">=1.9.1"
             },
             "suggest": {
                 "components/bootstrap-default": "Provide a theme for Bootstrap as components/bootstrap only provides the CSS as file assets"
@@ -202,20 +202,30 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "Apache-2.0"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "Twitter, Inc"
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
                 }
             ],
-            "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
             "homepage": "http://getbootstrap.com",
             "keywords": [
-                "bootstrap",
-                "css"
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
             ],
-            "time": "2014-09-03 07:11:25"
+            "time": "2014-10-30 07:22:10"
         },
         {
             "name": "components/font-awesome",
@@ -1102,12 +1112,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "1a9dffa64e33fdc10f4b4c3f5d7230b74d4a1021"
+                "reference": "f4fe9d9cc21a711d89d91d29c4a4e7945289cdd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/1a9dffa64e33fdc10f4b4c3f5d7230b74d4a1021",
-                "reference": "1a9dffa64e33fdc10f4b4c3f5d7230b74d4a1021",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/f4fe9d9cc21a711d89d91d29c4a4e7945289cdd0",
+                "reference": "f4fe9d9cc21a711d89d91d29c4a4e7945289cdd0",
                 "shasum": ""
             },
             "require": {
@@ -1152,7 +1162,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2014-08-18 18:03:07"
+            "time": "2014-10-30 14:49:25"
         },
         {
             "name": "doctrine/orm",
@@ -1911,12 +1921,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/liip/LiipImagineBundle.git",
-                "reference": "fe51d50896434d4c1393a5de1504cc174b9049bd"
+                "reference": "c8b6eca46635a0d99260e5d459ae73876c930c2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/fe51d50896434d4c1393a5de1504cc174b9049bd",
-                "reference": "fe51d50896434d4c1393a5de1504cc174b9049bd",
+                "url": "https://api.github.com/repos/liip/LiipImagineBundle/zipball/c8b6eca46635a0d99260e5d459ae73876c930c2f",
+                "reference": "c8b6eca46635a0d99260e5d459ae73876c930c2f",
                 "shasum": ""
             },
             "require": {
@@ -1976,7 +1986,7 @@
                 "image",
                 "imagine"
             ],
-            "time": "2014-10-22 06:27:33"
+            "time": "2014-10-29 18:56:25"
         },
         {
             "name": "monolog/monolog",
